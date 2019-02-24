@@ -2,6 +2,8 @@
 
 This is a simple back-end web application to be deployed in AWS which will `put` and `get` items from a DynamoDB table.
 
+![architecture](web-app.png)
+
 ## Requirements
 
 Some requirements before you begin:
