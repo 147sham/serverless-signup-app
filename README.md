@@ -18,7 +18,7 @@ Firstly, you will need to have your credentials loaded on your environment, see 
 You then need to setup a DynamoDB table to add and retrieve data from, you can do this by running the following command:
 
 ```
-aws dynamodb create-table --table-name my_table_name \                                        (127) 18:16:44 
+aws dynamodb create-table --table-name my_table_name \                                        
         --attribute-definitions AttributeName=my_hash_key,AttributeType=S \
         --key-schema AttributeName=my_hash_key,KeyType=HASH \
         --provisioned-throughput ReadCapacityUnits=1,WriteCapacityUnits=1 \
