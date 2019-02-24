@@ -1,0 +1,22 @@
+{
+  "name": "signup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.409.0",
+    "bunyan": "^1.8.12",
+    "claudia-api-builder": "^4.1.2",
+    "email-validator": "^2.0.4",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "ramda": "^0.26.1",
+    "uuid": "^3.3.2"
+  }
+}
